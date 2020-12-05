@@ -1,0 +1,57 @@
+.header {
+	padding:5%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: lightgrey;
+}
+
+.navbar{
+	display: flex;
+	background-color: darkblue;
+}
+
+.navbar a{
+	color:white;
+	padding:10px 30px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: lightblue;
+	color:black;
+}
+
+@media (max-width: 700px){
+	.row, .navbar{
+		flex-direction: column;
+	}
+}
+
+#info {
+	font-family: Times, sans-serif;
+	padding:20px 20px;
+	text-align: center;
+	font-size: small;
+}
+
+.myInfo, .classes, .Hobbies{
+	padding:20px;
+}
+
+
+.myInfo img{
+	height: 10%;
+	width: 10%;
+}
+
+.classes img{
+	height: 30%;
+	width: 30%;
+}
+
+.Hobbies img{
+	height: 30%;
+	width: 30%;
+}
